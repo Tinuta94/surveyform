@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(to bottom, #ffcc99 0%, #ccffcc 100%);
+}
+
+
+#title {
+    padding-top: 30px;
+}
+#button {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    background-color: black;
+   
+}
+h4 {
+    text-align: center;
+}
+#six {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+  
+}
+#textarea {
+    width: 380px;
+    height: 200px
+}
+@media only screen and (max-width:720px) {
+    #textarea {
+        width: 280px;
+    }
+    }
+    #title, #description {
+        text-align: center;
+    }
+    #survey {
+    margin-left: 330px;
+    margin-right: 330px;
+    padding: 30px;
+    padding-bottom: 30px;
+    background: linear-gradient(to bottom, #6699ff 0%, #ff9999 100%);
+    
+    }
+    @media only screen and (max-width:720px){
+        #survey {
+            margin: 5px;
+        }
+    }
+    @media (min-width: 480px) {
+        form {
+          padding: 2.5rem;
+        }
+      }
+      
+    #footer {
+        height: 40px;
+       
+        padding-bottom: 30px;
+    }
+    
